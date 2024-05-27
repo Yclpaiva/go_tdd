@@ -1,6 +1,8 @@
-package structsmethodsinterfaces
+package main
 
-import "math"
+import (
+	"math"
+)
 
 // Rectangle
 type Rectangle struct {
@@ -33,4 +35,7 @@ type Triangle struct {
 
 func (t Triangle) Area() float64 {
 	return t.Base * t.Height / 2
+}
+
+func main() {
 }
